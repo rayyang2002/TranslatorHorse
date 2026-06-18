@@ -1,0 +1,35 @@
+# Python cache/build
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local runtime outputs / heavy media artifacts
+output/
+temp/
+video_translator/output/
+video_translator/temp/
+**/_tts_segments/
+**/*_mix_parts/
+**/_dubbed_work.wav
+**/.video_translator_job.json
+**/_translated_segments.json
+
+# Local secrets / machine config
+video_translator/config/settings.json
+.env
+.env.*
+*.local
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

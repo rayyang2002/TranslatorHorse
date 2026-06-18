@@ -1,0 +1,78 @@
+{
+  "app_name": "Video Translator",
+  "version": "0.2.0",
+  "tts_engine": "edge-tts",
+  "whisper_model": "medium",
+  "output_dir": "./output",
+  "temp_dir": "./temp",
+  "subtitle_mode": "both",
+  "model_provider": {
+    "name": "ST",
+    "api_key": "",
+    "base_url": "https://token.sensenova.cn/v1",
+    "model": "deepseek-v4-flash"
+  },
+  "target_lang": "en",
+  "g20_languages": {
+    "zh": "中文 (Chinese) - 翻译/识别/TTS",
+    "en": "英语 (English) - 翻译/识别/TTS",
+    "es": "西班牙语 (Spanish) - 翻译/识别/TTS",
+    "pt": "葡萄牙语 (Portuguese) - 翻译/识别/TTS",
+    "fr": "法语 (French) - 翻译/识别/TTS",
+    "de": "德语 (German) - 翻译/识别/TTS",
+    "it": "意大利语 (Italian) - 翻译/识别/TTS",
+    "ja": "日语 (Japanese) - 翻译/识别/TTS",
+    "ko": "韩语 (Korean) - 翻译/识别/TTS",
+    "ru": "俄语 (Russian) - 翻译/识别/TTS",
+    "ar": "阿拉伯语 (Arabic) - 翻译/识别/TTS",
+    "tr": "土耳其语 (Turkish) - 翻译/识别/TTS",
+    "hi": "印地语 (Hindi) - 翻译/识别/TTS",
+    "id": "印度尼西亚语 (Indonesian) - 翻译/识别/TTS",
+    "nl": "荷兰语 (Dutch) - 翻译/识别/TTS",
+    "af": "南非荷兰语 (Afrikaans) - 翻译/TTS",
+    "zu": "祖鲁语 (Zulu) - 翻译/识别/TTS",
+    "xh": "科萨语 (Xhosa) - 翻译/识别/TTS",
+    "ta": "泰米尔语 (Tamil) - 翻译/识别/TTS",
+    "te": "泰卢固语 (Telugu) - 翻译/识别/TTS",
+    "bn": "孟加拉语 (Bengali) - 翻译/识别/TTS",
+    "ur": "乌尔都语 (Urdu) - 翻译/识别/TTS",
+    "mr": "马拉地语 (Marathi) - 翻译/识别/TTS",
+    "pa": "旁遮普语 (Punjabi) - 翻译/识别/TTS",
+    "vi": "越南语 (Vietnamese) - 翻译/识别/TTS",
+    "pl": "波兰语 (Polish) - 翻译/识别/TTS",
+    "el": "希腊语 (Greek) - 翻译/识别/TTS",
+    "sv": "瑞典语 (Swedish) - 翻译/识别/TTS",
+    "fi": "芬兰语 (Finnish) - 翻译/识别/TTS",
+    "da": "丹麦语 (Danish) - 翻译/识别/TTS",
+    "cs": "捷克语 (Czech) - 翻译/识别/TTS",
+    "hu": "匈牙利语 (Hungarian) - 翻译/识别/TTS",
+    "ro": "罗马尼亚语 (Romanian) - 翻译/识别/TTS"
+  },
+  "subtitle_style": {
+    "font": "Microsoft YaHei",
+    "font_size": 24,
+    "color": "#FFFFFF",
+    "background": "#00000080",
+    "position": "bottom"
+  },
+  "indextts2": {
+    "base_url": "",
+    "endpoint": "/tts",
+    "api_key": "",
+    "voice_mode": "clone_reference",
+    "emotion": "natural",
+    "timing_strategy": "strict_subtitle_duration",
+    "reference_audio": ""
+  },
+  "tts_enabled": false,
+  "tts_voice": "zh-CN-XiaoxiaoNeural",
+  "llm_providers": [
+    {
+      "name": "ST",
+      "api_key": "",
+      "base_url": "https://token.sensenova.cn/v1",
+      "model": "deepseek-v4-flash"
+    }
+  ],
+  "active_provider_index": 0
+}

@@ -1,0 +1,24 @@
+# Core
+ffmpeg-python>=0.2.0
+moviepy>=1.0.3
+faster-whisper>=1.0.0
+openai>=1.35.0
+requests>=2.31.0
+
+# GUI
+PySide6>=6.6.0
+
+# TTS
+edge-tts>=6.1.12
+
+# Vocal/background separation for dubbing with preserved background music
+demucs>=4.0.1
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+pydantic>=2.0.0
+yt-dlp>=2024.8.6
+
+# Tests
+pytest>=7.4.0
